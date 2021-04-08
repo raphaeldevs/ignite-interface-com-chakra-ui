@@ -14,9 +14,23 @@ export const theme = extendTheme({
   },
   styles: {
     global: {
+      ':root': {
+        '--swiper-theme-color': 'var(--chakra-colors-yellow)',
+        '--swiper-navigation-size': '1.875rem'
+      },
       body: {
         bg: 'light.text',
         color: 'dark.text'
+      },
+      '.swiper-button-next': {
+        right: '8'
+      },
+      '.swiper-button-prev': {
+        left: '8'
+      },
+      '.swiper-pagination-bullet:not(.swiper-pagination-bullet-active)': {
+        opacity: 1,
+        background: 'dark.info'
       }
     }
   },
