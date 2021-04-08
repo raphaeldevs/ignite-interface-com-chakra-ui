@@ -1,6 +1,6 @@
 import { Flex, Box, Heading, Text, Image } from '@chakra-ui/react'
 
-export function Banner() {
+export function Hero() {
   return (
     <Flex
       height="21rem"
