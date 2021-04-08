@@ -4,7 +4,6 @@ export function Hero() {
   return (
     <Flex
       height="21rem"
-      px="8.75rem"
       backgroundImage="url('/images/background.png')"
       backgroundSize="cover"
     >
