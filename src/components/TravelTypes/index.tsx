@@ -6,6 +6,7 @@ import { TravelTypeItem } from './TravelTypeItem'
 export function TravelTypes() {
   return (
     <Flex
+      as="section"
       mt="7.125rem"
       flex="1"
       justify="space-between"
