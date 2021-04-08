@@ -11,7 +11,7 @@ export function Header() {
   const hasHistory = asPath !== '/'
 
   return (
-    <Flex as="header" width="100vw" height="6.25rem" background="white" px="6">
+    <Flex as="header" width="100%" height="6.25rem" background="white" px="6">
       <Flex
         maxWidth="1160px"
         width="100%"
