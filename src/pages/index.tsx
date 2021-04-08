@@ -1,9 +1,9 @@
-import { Flex, Divider } from '@chakra-ui/react'
+import { Flex, Divider, Heading } from '@chakra-ui/react'
 
 import { Header } from '../components/Header'
 import { Hero } from '../components/Hero'
 import { TravelTypes } from '../components/TravelTypes'
-import { Carousel } from '../components/Carousel'
+import { ContinentsSlide } from '../components/ContinentsSlide'
 
 export default function Home() {
   return (
@@ -29,7 +29,13 @@ export default function Home() {
           borderColor="dark.text"
         />
 
-        <Carousel />
+        <Heading textAlign="center" fontWeight="medium" lineHeight="3.375rem">
+          Vamos nessa?
+          <br />
+          Então escolha seu continente
+        </Heading>
+
+        <ContinentsSlide />
       </Flex>
     </>
   )
